@@ -12,8 +12,18 @@
       text-align: center;
       flex-direction: column;
       padding: 10px;
-
-
+      img {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      h4 {
+        color: #fff;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #7d7e7e;
+        margin-bottom: 20px;
+      }
     }
   }
 }

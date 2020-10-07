@@ -27,6 +27,7 @@
      <main>
       <div class="container-half">
         <div class="square-container">
+
           <?php foreach ($database as $disk) {?>
 
             <div class="square color-inside">
@@ -43,7 +44,7 @@
 
 
             </div>
-          <?php}  ?>
+          <?php }  ?>
 
         </div>
       </div>

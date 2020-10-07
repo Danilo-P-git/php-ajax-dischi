@@ -55,3 +55,18 @@
   padding: 10px;
 }
 
+.container-half .square-container .square img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container-half .square-container .square h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.container-half .square-container .square p {
+  color: #7d7e7e;
+  margin-bottom: 20px;
+}
+
