@@ -14,8 +14,13 @@
   width: 100%;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
 .container-half {
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 

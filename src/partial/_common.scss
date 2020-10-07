@@ -1,3 +1,5 @@
+@import "partial/_variables";
+
 * {
  box-sizing: border-box;
  margin: 0;
@@ -11,16 +13,20 @@
 .container-full {
   width: 100%;
 }
+.fixed {
+  position: fixed;
+  top: 0;
+}
 .container-half {
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 .color-second {
-  background-color: #2e3a46 ;
+  background-color: $color-secondary;
 }
 .color-first {
-  background-color: #1e2d3b;
+  background-color: $color-primary;
 }
 .color-inside {
-  background-color: #2e3a46;
+  background-color: $color-secondary;
 }
