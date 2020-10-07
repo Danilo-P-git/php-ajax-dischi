@@ -1,0 +1,19 @@
+.container-half {
+  .square-container {
+    margin-top: 25px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .square {
+      width: calc(25% - 20px);
+      margin: 10px;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      padding: 10px;
+
+
+    }
+  }
+}
