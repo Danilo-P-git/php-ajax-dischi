@@ -1,6 +1,5 @@
 <?php
-
-
+  include 'db.php';
  ?>
 
 
@@ -28,30 +27,24 @@
      <main>
       <div class="container-half">
         <div class="square-container">
-          <div class="square color-inside">
-            <img src="" alt="IMG">
-            <h4>TITOLO</h4>
-            <p>AUTORE</p>
-            <p><small>anno</small> </p>
-          </div>
-          <div class="square color-inside">
-            <img src="" alt="IMG">
-            <h4>TITOLO</h4>
-            <p>AUTORE</p>
-            <p><small>anno</small> </p>
-          </div>
-          <div class="square color-inside">
-            <img src="" alt="IMG">
-            <h4>TITOLO</h4>
-            <p>AUTORE</p>
-            <p><small>anno</small> </p>
-          </div>
-          <div class="square color-inside">
-            <img src="" alt="IMG">
-            <h4>TITOLO</h4>
-            <p>AUTORE</p>
-            <p><small>anno</small> </p>
-          </div>
+          <?php foreach ($database as $disk) {?>
+
+            <div class="square color-inside">
+
+              <img src="<?php echo $disk["poster"]  ?>" alt="">
+
+              <h4>
+                <?php echo $disk["title"] ?>
+              </h4>
+              <p>
+                <?php echo $disk["author"] ?>
+              </p>
+              <p><small><?php echo $disk["year"] ?></small> </p>
+
+
+            </div>
+          <?php}  ?>
+
         </div>
       </div>
      </main>
