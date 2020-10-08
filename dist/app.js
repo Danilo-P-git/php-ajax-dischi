@@ -16105,14 +16105,11 @@ $(document).ready(function () {
 }); // Funzione renderAlbums
 
 function renderAlbums(data) {
-  // Preparo il template Handlebars
   var source = $("#album-template").html();
-  var template = Handlebars.compile(source); // Per ognuno degli album,
+  var template = Handlebars.compile(source);
 
   for (var i = 0; i < data.length; i++) {
-    // compilo il template con i dati relativi
-    var html = template(data[i]); // e appendo l'html risultante nella lista degli album
-
+    var html = template(data[i]);
     $(".albums-list").append(html);
   }
 }

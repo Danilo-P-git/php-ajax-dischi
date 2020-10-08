@@ -1,6 +1,4 @@
-<footer>
+<script src="dist/app.js" charset="utf-8"></script>
 
-
-</footer>
 </body>
 </html>
