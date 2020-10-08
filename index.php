@@ -21,6 +21,7 @@
        </div>
       </div>
     </header>
+
     <main>
       <div class="container-half">
         <ul class="albums-list square-container">
@@ -28,15 +29,18 @@
       </div>
     </main>
 
-    <script id="album-template" type="text/x-handlebars-template">
-       <li class="albums-list-item square color-inside">
-         <img src="{{poster}}" alt="">
-         <h4>{{title}}</h4>
-           <p>{{author}}</p>
-           <p>{{year}}</p>
-       </li>
-     </script>
-     <script src="dist/app.js" charset="utf-8"></script>
+
+      <script id="album-template" type="text/x-handlebars-template">
+        <li class="albums-list-item square color-inside">
+          <img src="{{poster}}" alt="">
+          <h4>{{title}}</h4>
+            <p>{{author}}</p>
+            <p>{{year}}</p>
+          </div>
+        </li>
+      </script>
+        <script src="dist/app.js" charset="utf-8"></script>
+
 
 </body>
 </html>
