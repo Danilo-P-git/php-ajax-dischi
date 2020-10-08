@@ -21,7 +21,7 @@
        </div>
       </div>
     </header>
-
+<small>
     <main>
       <div class="container-half">
         <ul class="albums-list square-container">
@@ -35,7 +35,7 @@
           <img src="{{poster}}" alt="">
           <h4>{{title}}</h4>
             <p>{{author}}</p>
-            <p>{{year}}</p>
+            <p> <small>{{year}}</small></p>
           </div>
         </li>
       </script>
